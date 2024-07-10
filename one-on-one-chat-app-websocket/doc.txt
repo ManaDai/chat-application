@@ -1,0 +1,6 @@
+<Dockerのコンテナの立て方>
+
+docker-compose up -d :ディタッチモードでのコンテナ作成
+docker-compose up :通常モードでのコンテナ作成
+
+docker ps :ログの確認

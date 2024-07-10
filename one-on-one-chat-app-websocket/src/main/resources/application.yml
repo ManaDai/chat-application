@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      username: ${SPRING_DATA_MONGODB_USERNAME}
+      password: ${SPRING_DATA_MONGODB_PASSWORD}
+      host: ${SPRING_DATA_MONGODB_HOST}
+      port: ${SPRING_DATA_MONGODB_PORT}
+      database: ${SPRING_DATA_MONGODB_DATABASE}
+      authentication-database: ${SPRING_DATA_MONGODB_AUTHENTICATION_DATABASE}
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  messages:
+    basename: messages,othermessages
+
+
+
+server:
+  port: 8088
